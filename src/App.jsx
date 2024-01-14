@@ -1,10 +1,10 @@
 import { useSelector } from "react-redux";
-import Carts from "./components/cart/index";
+import Carts from "./components/Cart";
 import { useState } from "react";
-import Products from "./components/Products/index";
-import Navbar from "./components/Navbar/index";
-import DetailProduct from "./components/DetailProduct/index";
-import Filter from "./components/Filter/index";
+import Products from "./components/Products";
+import Navbar from "./components/Navbar";
+import DetailProduct from "./components/DetailProduct";
+import Filter from "./components/Filter";
 const App = () => {
   const [showCart, setShowCart] = useState(false);
   const [showFilter, setShowFilter] = useState(false);
